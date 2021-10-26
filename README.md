@@ -1,6 +1,12 @@
 ## Peel Shopping cart 9.4.0 Stored XSS
 ![1.png](images/1.png)
 
+### Date
+October 16, 2021
+
+### Exploit Author
+Pranav Sivvam
+
 ### Vulnerability
 
 Stored Cross Site Scripting (XSS) in the "Address" field of "http://localhost/peelshopping_9_4_0/utilisateurs/change_params.php"
