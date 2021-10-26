@@ -1,27 +1,39 @@
 ## Peel Shopping cart 9.4.0 Stored XSS
 ![1.png](images/1.png)
 
-### Date
+## Date
 October 16, 2021
 
-### Exploit Author
+## Exploit Author
 Pranav Sivvam
 
-### Vulnerability
+## Vendor Homepage:
+https://www.peel.fr/
+
+## Software Link
+https://sourceforge.net/projects/peel-shopping/
+
+## Vulnerable Software Link
+https://drive.google.com/file/d/1hElJ2eKYfafIucbNWeFB9xZnHUZNV9sK/view?usp=sharing
+
+## Software
+Peel Shopping 9.4.0
+
+## Vulnerability
 
 Stored Cross Site Scripting (XSS) in the "Address" field of "http://localhost/peelshopping_9_4_0/utilisateurs/change_params.php"
 
-### Affects
+## Affects
 
 Peel Shopping 9.4.0
 
-### Description
+## Description
 
 A Stored Cross Site Scripting attack occurs when a malicious script is injected directly into a vulnerable web application. Every time the infected page is viewed, the malicious script is transmitted to the victim’s browser.
 
 In Peel Shopping 9.4.0, a user supplied polyglot payload in the "Address" field of the "Change my credentials" form (change_params.php) is echoed back in javascript code in HTML response. This allows an attacker to input malicious JavaScript which can steal cookie, redirect them to other malicious website, etc.
 
-### Proof of Concept
+## Proof of Concept
 
 1. Log in to your account
 
