@@ -27,7 +27,7 @@ Stored Cross Site Scripting (XSS) in the "Address" field of "http://localhost/pe
 
 Peel Shopping 9.4.0
 
-## Tested on Linux, Apache httpd
+### Tested on Linux, Apache httpd
 
 ## Description
 
