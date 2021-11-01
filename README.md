@@ -27,6 +27,8 @@ Stored Cross Site Scripting (XSS) in the "Address" field of "http://localhost/pe
 
 Peel Shopping 9.4.0
 
+## Tested on Linux, Apache httpd
+
 ## Description
 
 A Stored Cross Site Scripting attack occurs when a malicious script is injected directly into a vulnerable web application. Every time the infected page is viewed, the malicious script is transmitted to the victim’s browser.
